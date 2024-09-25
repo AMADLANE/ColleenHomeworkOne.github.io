@@ -6,10 +6,9 @@ body{
 }
 li{
   display: inline;
-  padding: 50px;
+  padding:7%;
 }
 nav{
-  background-color: aqua;
   margin-bottom: 50px;
 }
 main{
@@ -30,3 +29,23 @@ h1{
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
 }
+.imgs1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+main > div > img{
+  padding: 10px;
+  width: 40%;
+}
+.imgs2{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(9, 1fr); 
+}
+.imgs2 img{
+  width: 82%;
+}
+
