@@ -5,7 +5,8 @@ body{
   font-size: 95%;
 }
 a{
-  color: blue;
+  color: black;
+  background-color: white;
 }
 li{
   display: inline;
